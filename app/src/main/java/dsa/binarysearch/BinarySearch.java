@@ -28,4 +28,12 @@ public class BinarySearch {
         
     }
 
+    public static void main(String[] args) {
+        BinarySearch bs = new BinarySearch();
+        int[] nums = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+        int target = 7;
+        int result = bs.search(nums, target);
+        System.out.println("Index of target " + target + ": " + result); // Output: 6
+    }
+
 }
